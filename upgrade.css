@@ -1,0 +1,53 @@
+.botao {
+
+
+
+
+
+            
+}
+
+ .formulario {
+    color: rgb(0, 86, 216);
+    font-style: oblique;
+    font-family:'Times New Roman', Times, serif;
+    border-style:outset;
+    border-radius: 100px;
+    border-color: rgb(52, 169, 223);
+    border-block-start-style:ridge;
+
+
+
+ }
+
+ .principal {
+
+    color: rgb(245, 0, 0);
+
+
+
+ }
+        body {
+                 background-color: lightblue;
+            
+                }
+        .underline {
+
+    
+        text-decoration: underline;
+        color: rgb(35, 7, 46);
+        
+
+    }
+
+    .Aula4 {
+        color: rgb(252, 7, 7);
+        font-size: 20px;
+        font-weight: 800;
+
+    }
+
+    .CorAzul {
+        color: blue;
+
+    }
