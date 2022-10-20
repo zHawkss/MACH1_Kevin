@@ -1,53 +1,102 @@
-.botao {
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+
+.body {
+
+    margin: 0;
+    padding: 0;
+    height: 100px;
+    
 
 
-
-
-
-            
 }
 
- .formulario {
-    color: rgb(0, 86, 216);
-    font-style: oblique;
-    font-family:'Times New Roman', Times, serif;
-    border-style:outset;
-    border-radius: 100px;
-    border-color: rgb(52, 169, 223);
-    border-block-start-style:ridge;
+    .banner {
 
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
+    }   
 
- }
+    .banner video {
 
- .principal {
+        position: fixed;
+        top: 0%;
+        left: 0%;
+        object-fit: cover;
+        width: 100%;
+    }
 
-    color: rgb(245, 0, 0);
+    .content {
+        position: relative;
+      }
+      
+      .content h1 {
+        font-family: "Poppins", sans-serif;
+        color: rgb(223, 213, 83);
+        font-size: 5.5em;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+        max-width: 400px;
+        margin: 0 auto;
+        text-align: center;
+        margin: 0%;
+            padding: 0;
+      }
+      
+      .content h1:nth-child(1) {
+        color: transparent;
+        -webkit-text-stroke: 2px #e4dcdc;
+      }
+      
+      .content h1:nth-child(2) {
+        color: #f5f110;
+        animation: animate 4s ease-in-out infinite;
+      }
+      
 
-
-
- }
-        body {
-                 background-color: lightblue;
-            
-                }
-        .underline {
-
-    
-        text-decoration: underline;
-        color: rgb(35, 7, 46);
-        
+    .filho{
+        font-weight: 300;
+        font-family: 'Anton', sans-serif;
+        color: #f5f110;
+        z-index: 1;
+        max-width: 400px;
+        margin: 0px;
+        text-indent: 300px;
 
     }
 
-    .Aula4 {
-        color: rgb(252, 7, 7);
-        font-size: 20px;
-        font-weight: 800;
-
-    }
-
-    .CorAzul {
-        color: blue;
-
-    }
+    @keyframes animate {
+        0%,
+        100% {
+          clip-path: polygon(
+            0% 45%,
+            16% 44%,
+            33% 50%,
+            54% 60%,
+            70% 61%,
+            84% 59%,
+            100% 52%,
+            100% 100%,
+            0% 100%
+          );
+        }
+      
+        50% {
+          clip-path: polygon(
+            0% 60%,
+            15% 65%,
+            34% 66%,
+            51% 62%,
+            67% 50%,
+            84% 45%,
+            100% 46%,
+            100% 100%,
+            0% 100%
+          );
+        }
+      }
